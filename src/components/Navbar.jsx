@@ -79,15 +79,6 @@ const Navigation = React.forwardRef((props, ref) => {
               Skills
             </Nav.Link>
           )}
-          {contact.show && (
-            <Nav.Link
-              className="nav-link lead color"
-              style={{color:"#fff"}}
-              href={process.env.PUBLIC_URL + "/#contact"}
-            >
-              Contacts
-            </Nav.Link>
-          )}
         </Nav>
       </Navbar.Collapse>
     </Navbar>
