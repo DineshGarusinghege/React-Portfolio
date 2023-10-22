@@ -30,7 +30,7 @@ const mainBody = {
 const about = {
   show: true,
   heading: "About Me",
-  imageLink: require("../editable-stuff/Dinesh.jpg"),
+  imageLink: require("../editable-stuff/Dinesh.webp"),
   imageSize: 375,
   message:
     "I am Dinesh Garusinghege.  Graduate of BSc (honors) Information Communication Technology degree at the University of Sri Jayawardenepura. I am a responsible, self-motivated, skillful, and dedicated undergraduate with team spirit and leadership qualities who is willing to accept challenges, seeking an opportunity as a Web Developer to apply and explore the existing and forthcoming technologies in the field of Information Technology.",
