@@ -1,0 +1,58 @@
+{
+  "name": "DineshGarusinghege",
+  "description": "A personal static website/portfolio template hosted with GitHub Pages, built to showcase my recent projects.",
+  "homepage": "https://DineshGarusinghege.github.io",
+  "version": "2.0.0",
+  "private": true,
+  "author": {
+    "name": "Dinesh Garusinghege",
+    "email": "ictdinesh.se@gmail.com",
+    "url": "https://github.com/DineshGarusinghege"
+  },
+  "dependencies": {
+    "@emailjs/browser": "^3.11.0",
+    "axios": "^0.19.2",
+    "bootstrap": "^4.5.2",
+    "gh-pages": "^2.2.0",
+    "jquery": "^3.5.1",
+    "node-sass": "^4.14.1",
+    "prop-types": "^15.7.2",
+    "react": "^16.14.0",
+    "react-bootstrap": "^1.4.0",
+    "react-dom": "^16.14.0",
+    "react-loading-skeleton": "^2.1.1",
+    "react-particle-animation": "^2.0.2",
+    "react-router": "^5.2.0",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "^3.4.4",
+    "react-toastify": "^9.0.3",
+    "react-tsparticles": "^2.9.3",
+    "react-typist": "^2.0.5",
+    "typescript": "^3.9.7",
+    "xt-react-toastify": "^0.2.7"
+  },
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy":"gh-pages -d build -r https://github.com/DineshGarusinghege/DineshGarusinghege.github.io.git",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "custom-deploy": "node pages.js"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
