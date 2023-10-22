@@ -33,7 +33,7 @@ const about = {
   imageLink: require("../editable-stuff/Dinesh.jpg"),
   imageSize: 375,
   message:
-    "I am Dinesh Garusinghege.  Graduate of BSc (honors) Information Communication Technology degree at the University of Sri Jayawardenepura. I am a responsible, self-motivated, skillful, and dedicated undergraduate with team spirit and leadership qualities who is willing to accept challenges, seeking an opportunity as a software engineer to apply and explore the existing and forthcoming technologies in the field of Information Technology.",
+    "I am Dinesh Garusinghege.  Graduate of BSc (honors) Information Communication Technology degree at the University of Sri Jayawardenepura. I am a responsible, self-motivated, skillful, and dedicated undergraduate with team spirit and leadership qualities who is willing to accept challenges, seeking an opportunity as a Web Developer to apply and explore the existing and forthcoming technologies in the field of Information Technology.",
   resume: "https://drive.google.com/file/d/10Q8PckK1f9Mm_ljsYYWR0Wg1zWyMCyE6/view?usp=sharing",
 };
 
